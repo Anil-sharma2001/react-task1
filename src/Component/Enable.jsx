@@ -17,7 +17,6 @@ export default function Enable() {
 
   return (
     <div>
-      <h1>Enable/Disable button</h1>
        <button className={diffClass} disabled={main}>Main Button</button> 
        <button  onClick={handleClick} className='space btn'>
        {main ? "Disable" : "Enable"}  
