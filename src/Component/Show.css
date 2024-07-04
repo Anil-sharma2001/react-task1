@@ -1,0 +1,81 @@
+/* Show.css */
+/* SelfSizingContainer.css */
+
+.self-sizing-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+  
+  .title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .show-element {
+    font-size: 20px;
+    color: green;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .disableBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .space{
+    margin-left: 10px
+  }
+
+  /* TextBind.css */
+
+.textbind-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textbind-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  margin-bottom: 10px;
+}
+
+.textbind-output {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+/*sum. css
+/*
+
