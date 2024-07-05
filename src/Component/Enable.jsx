@@ -4,7 +4,7 @@ import './Show.css'
 export default function Enable() {
     const [main , setMain]= useState(false)
     const [diffClass , setDiffClass]=useState('btn')
-    const [click,setClick]=useState(false)
+    const [click,setClick]=useState(true)
     
 
     const handleClick =()=>{
@@ -27,7 +27,7 @@ export default function Enable() {
        <button  onClick={handleClick} className='space btn'>
        {main ? "Enable" : "Disable"}  
       </button>
-      {!click && <h1>Buttton is working</h1>}
+      {!click && <h3>Buttton is working</h3>}
     </div>
   )
 }
