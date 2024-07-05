@@ -2,25 +2,32 @@ import React,{useState} from 'react'
 import './Show.css'
 
 export default function Enable() {
-    const [main , setMain]= useState(true)
+    const [main , setMain]= useState(false)
     const [diffClass , setDiffClass]=useState('btn')
+    const [click,setClick]=useState(false)
     
 
     const handleClick =()=>{
      setMain(!main)
      if (main) {
-        setDiffClass('disableBtn');
-      } else {
         setDiffClass('btn');
+      } else {
+        setDiffClass('disableBtn');
       }
     }
+    const workClick=()=>{
+     setClick(!click)
 
+    } 
+    
+     
   return (
     <div>
-       <button className={diffClass} disabled={main}>Main Button</button> 
+       <button className={diffClass} disabled={main} onClick={workClick}>Main Button</button> 
        <button  onClick={handleClick} className='space btn'>
-       {main ? "Disable" : "Enable"}  
+       {main ? "Enable" : "Disable"}  
       </button>
+      {!click && <h1>Buttton is working</h1>}
     </div>
   )
 }

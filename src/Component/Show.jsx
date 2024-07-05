@@ -12,7 +12,7 @@ export default function Show() {
     <div className="self-sizing-container">
       <h1 className="title">Show Hide element on screen</h1>
       <div>
-        {!clickme && <h1 className="show-element">I am showing</h1>}
+        {!clickme && <h1 className="show-element">Showing</h1>}
       </div>
       <button className='btn' onClick={handleButton}>
         {clickme ? 'Show' : 'Hide'}
